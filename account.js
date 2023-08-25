@@ -12,7 +12,7 @@
 
     var bindProfileEdit = function(textClass, buttonClass, feedbackClass) {
       $(textClass).keyup(function() {
-        $(buttonClass).prop("disabled", false);
+        $(buttonClass).prop(".disabled", false);
       });
 
       $(buttonClass).click(function() {
