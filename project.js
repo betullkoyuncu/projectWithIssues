@@ -17,7 +17,7 @@
           return {
             "language": language,
             "extensions": extensions
-          }
+          };
         };
 
         var arr = $.map($('.fileLanguageExtension'), function(obj, i) {
